@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 52px;
+    background-color: #1f2937;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    max-width: fit-content;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 6px;
+    color: #f9faf8;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 20px;
+
+}
+
+.header, .main-text {
+    color: #f9faf8;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    align-items: center;
+    
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0px;
+    
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
