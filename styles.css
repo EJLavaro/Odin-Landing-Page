@@ -30,11 +30,11 @@ button {
     color: #f9faf8;
     font-size: 12px;
     font-weight: 600;
-    padding: 2px 20px;
+    padding: 6px 20px;
 
 }
 
-.header, .main-text, .container, .quote, .footer {
+.header, .main-text, .container, .quote, .ad, .footer {
     padding: 16px 256px;
 }
 
@@ -121,4 +121,42 @@ button {
     font-weight: 700;
     text-align: end;
     margin-top: 12px;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.page-sign {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 128px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    gap: 48px;
+    color: white;
+}
+
+.ad-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ad button {
+    border-color: white;
+    height: fit-content;
+    padding: 6px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
